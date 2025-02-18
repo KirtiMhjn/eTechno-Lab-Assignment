@@ -1,0 +1,63 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    
+    background-color: rgb(224, 237, 232);
+    height: 100px;
+}
+.header:hover {
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: antiquewhite;
+}
+
+.logo {
+    width: 200px;
+    height: 100px;
+
+}
+.nav-items {
+    padding: 0px 20px;
+}
+
+.nav-items > ul {
+    font-size: 24px;
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-items > ul > li {
+    padding: 10px;
+    margin: 10px;
+}
+
+.login{
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
